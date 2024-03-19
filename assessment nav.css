@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 600px;
+    align-items: center;
+    background-color: blue;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    font-size: 19px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.login-button{
+    height:30px ;
+    width: 70px;
+    border: solid 2px white;
+    background-color: white;
+    color: blue;
+    font-size: 15px;
+}
+.hide{
+    display: none;
+}
+.show:hover{
+    background-color: rgb(6, 6, 129);
+    padding: 5px;
+}
+.text{
+    font-size: 19px;
+    color: white;
+}
+.show:hover .hide{
+    height: 130px;
+    width: 100px;
+    display: flex;
+    text-align: center;
+    line-height: 30px;
+    flex-direction: column;
+    background-color: blue;
+    position: absolute;
+    top: 50px;
+    right: 360px;
+}
+.show-sub:hover{
+    background-color: rgb(6, 6, 129);
+    padding: 3px;
+}
+.hide-sub{
+    display: none;
+}
+.show-sub:hover .hide-sub{
+    height: 130px;
+    width: 100px;
+    text-align: center;
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    position: absolute;
+    right: -90px;
+    top: 96px;
+}
+
